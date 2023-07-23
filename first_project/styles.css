@@ -1,0 +1,242 @@
+html {
+    font-size: 14px;
+}
+
+
+
+body {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+    height: 838px;
+}
+
+.header_logo {
+    font-weight: 700;
+    font-size: 2rem;
+    font-size: 2.28;
+}
+
+
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header_link {
+    color: #737373;
+}
+
+.header_link:hover {
+    color: blue;
+}
+
+.header_login {
+    color: #96bb707C;
+    margin-right: 45px;
+}
+
+.header__logo-link {
+    color: #252B42;
+}
+
+.header__logo-link:hover {
+    color: brown;
+}
+
+
+.header_login:hover {
+    color: black;
+}
+
+.btn {
+    color: #fff;
+    background-color: #96bb707C;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.header_inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    width: 40,92rem;
+    height: 27,57rem;
+    gap: 30px;
+}
+
+.header__content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 573px;
+    height: 386px;
+    gap: 30px;
+}
+
+.header__title {
+    margin: 2.15rem 0;
+    width: 38,71rem;
+    height: 11,42rem;
+    color: #252B42;
+}
+
+.header__subtitle {
+    margin-bottom: 2,15rem;
+    width: 38rem;
+    height: 4,28rem;
+    color: #737373;
+}
+
+.header__learn-more {
+    width: 11,37rem;
+    height: 3,71rem;
+    border-radius: 5px;
+    border: 1px;
+    padding: 15px,40px,15px,40px;
+    gap: 10px;
+    color: #96BB7C;
+    background-color: #fff;
+}
+
+.header__content-img {
+    width: 45rem;
+    height: auto;
+}
+
+p {
+    color: #737373;
+}
+
+.video__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video__left,
+.video__right {
+    width: 50%;
+}
+
+.video__img {
+    width: 100%;
+    height: auto;
+}
+
+.header__suptitle {
+    width: 77px;
+    height: 24px;
+    color: #96BB7C;
+}
+
+.btn-link {
+    color: #96bb707C;
+    margin-right: 45px;
+}
+
+.btn-link:hover {
+    color: black;
+}
+
+.video__right {
+    width: 381px;
+    height: 296px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video__line {
+    background: #E74040;
+    width: 94px;
+    height: 7px;
+}
+
+.courses__line {
+    background: #E74040;
+    width: 94px;
+    height: 7px;
+}
+
+.video__title {
+    font-size: 35px;
+}
+
+.header__title {
+    font-size: 40px;
+}
+
+.courses__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.courses-link {
+    color: #96bb707C;
+    margin-right: 45px;
+}
+
+.danger__line {
+    background: #E74040;
+    width: 50px;
+    height: 2px;
+}
+
+.courses__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__line {
+    background: #96BB7C;
+    width: 80px;
+    height: 120px;
+    border-radius: 0px 0px 30px 0px;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    opacity: 0.25;
+}
+
+.head__line {
+    background: #96BB7C;
+    width: 690px;
+    height: 630px;
+    border-radius: 0px 0px 0px 200px;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    opacity: 0.12;
+}
+
+.courses-link:hover {
+    color: black;
+}
