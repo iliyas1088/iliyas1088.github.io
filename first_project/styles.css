@@ -14,6 +14,10 @@ a {
     font-weight: 700;
 }
 
+a:hover {
+    text-decoration:underline;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 15px;
@@ -42,10 +46,6 @@ a {
     color: #737373;
 }
 
-.header_link:hover {
-    color: blue;
-}
-
 .header_login {
     color: #96bb707C;
     margin-right: 45px;
@@ -55,25 +55,54 @@ a {
     color: #252B42;
 }
 
-.header__logo-link:hover {
-    color: brown;
-}
-
-
-.header_login:hover {
-    color: black;
-}
-
 .btn {
+    color: #96bb707C;
+    margin-right: 45px;
+    background-color: #fff;
+}
+
+
+.header__join {
+    background-color: #96BB7C;
     color: #fff;
-    background-color: #96bb707C;
     padding: 15px 25px;
     border-radius: 5px;
 }
 
-.btn:hover {
-    color: black;
+.active {
+    background-color: #96BB7C;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.active span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .active span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .active:hover span {
+    padding-right: 25px;
+  }
+  
+  .active:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .header_inner {
     display: flex;
@@ -85,44 +114,69 @@ a {
 .header__content {
     display: flex;
     justify-content: space-between;
-    width: 40,92rem;
-    height: 27,57rem;
-    gap: 30px;
+    flex-direction: row;
 }
 
 .header__content-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 573px;
-    height: 386px;
-    gap: 30px;
 }
 
 .header__title {
     margin: 2.15rem 0;
-    width: 38,71rem;
-    height: 11,42rem;
+    width: 400px;
+    height: 100px;
     color: #252B42;
 }
 
 .header__subtitle {
     margin-bottom: 2,15rem;
-    width: 38rem;
-    height: 4,28rem;
+    width: 350px;
+    height: 60px;
     color: #737373;
 }
 
-.header__learn-more {
-    width: 11,37rem;
-    height: 3,71rem;
-    border-radius: 5px;
-    border: 1px;
-    padding: 15px,40px,15px,40px;
-    gap: 10px;
+.header__suptitle,
+.product__suptitle {
+    width: 77px;
+    height: 24px;
     color: #96BB7C;
-    background-color: #fff;
 }
+
+.more {
+    width: 162px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid #96BB7C;
+    padding: 15px 30px 15px 30px;
+    color: #96BB7C;
+}
+
+.more span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .more span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .more:hover span {
+    padding-right: 25px;
+  }
+  
+  .more:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 .header__content-img {
     width: 45rem;
@@ -149,19 +203,12 @@ p {
     height: auto;
 }
 
-.header__suptitle {
-    width: 77px;
-    height: 24px;
-    color: #96BB7C;
-}
-
 .btn-link {
     color: #96bb707C;
     margin-right: 45px;
-}
-
-.btn-link:hover {
-    color: black;
+    border: 1px solid #96bb707C;
+    border-radius: 37px;
+    padding: 15px 10px;
 }
 
 .video__right {
@@ -237,6 +284,343 @@ p {
     opacity: 0.12;
 }
 
-.courses-link:hover {
-    color: black;
+.product__inner {
+    width: 1,050px;
+    height: 952px;
+    left: 195px;
+    padding: 160px 0px 160px 0px;
+    gap: 96px;
+    display: flex;
+
+}
+
+.product__catalog {
+    display: flex;
+    flex-direction: row;
+}
+
+.product__title {
+    color: #252B42;
+}
+
+.product__item-sale {
+    background: #E74040;
+    color: #fff;
+    width: 51px;
+    height: 24px;
+    top: 20px;
+    left: 20px;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+}
+
+.product__catalog-item__left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 209px;
+    height: 402px;
+    background-color: rgb(0, 255, 255);
+}
+
+.product__catalog-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 20px 25px;
+    width: 140px;
+    height: 40px;
+    top: 338px;
+    gap: 10px;
+}
+
+.product__item-icon {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.product__catalog-item {
+    display: flex;
+    width: 501px;
+    height: 402px;
+}
+
+.catalog__item-suptitle {
+    color: #96BB7C;
+}
+
+.catalog__item-rating {
+    background: #2D4059;
+    width:  50px ;
+    height: 26px;
+    padding: 5px;
+    border-radius: 20px;
+    gap: 5px;
+    color: #FFFFFF;
+}
+
+.catalog__training {
+    width: 242px;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.catalog__paragraph {
+    width: 242px;
+    height: 60px;
+}
+
+.catalog__price {
+    display: flex;
+    width: 108px;
+    height: 34px;
+    padding: 5px 3px 5px 3px;
+    gap: 5px;
+}
+
+.catalog__price-lest {
+    width: 52px;
+    height: 24px;
+    color: #BDBDBD;
+}
+
+.catalog__price-new {
+    width: 45px;
+    height: 24px;
+    color: #FFAB71;
+}
+
+.catalog__statistics {
+    display: flex;
+    justify-content: space-between;
+    width: 242px;
+    height: 46px;
+    padding: 15px 0px 15px 0px;
+}
+
+.catalog-link {
+    color: #96BB7C;
+}
+
+.product__catalog-item__right {
+    display: flex;
+    flex-direction: column;
+    width: 292px;
+    height: 378px;
+    padding: 25px 25px 35px 25px;
+    gap: 10px;
+}
+
+.product__head {
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    margin: 0px 0px 50px 0px;
+}
+
+.teacher {
+    background: #FFF2F3;
+}
+
+.teacher__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher__header {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher__head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teacher__paragraph {
+    width: 469px;
+    height: 40px;
+    text-align: center;
+}
+
+.teacher__title {
+    color: #252B42;
+    text-align: center;
+}
+
+.teacher__left-right {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher__img {
+    width: 128px;
+    height: 128px;
+    border-radius: 200px;
+}
+
+.teacher__img-paragraph {
+    width: 307px;
+    height: 100px;
+}
+
+.teacher__left {
+    width: 501px;
+    height: 418.01px;
+    padding: 25px 25px 0px 25px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.teacher__image-paragraph {
+    width: 159px;
+    height: 120px;
+}
+
+.teacher__name {
+    width: 105px;
+    height: 24px;
+    color: #252B42;
+}
+
+.teacher__duty {
+    width: 65px;
+    height: 24px;
+    color: #737373;
+}
+
+.teacher__right {
+    width: 501px;
+    height: 438.01px;
+    padding: 25px 25px 0px 25px;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+.teacher__suptitle {
+    color: #96BB7C;
+    text-align: center;
+}
+
+.newsletter__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter__suptitle {
+    color: #96BB7C;
+    text-align: center;
+}
+
+.newsletter__title {
+    color: #252B42;
+    text-align: center;
+}
+
+.newsletter__paragraph {
+    text-align: center;
+}
+
+.newsletter__email {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.newsletter__input {
+    width: 571px;
+    height: 58px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.newsletter__button {
+    width: 117px;
+    height: 58px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px;
+    gap: 10px;
+    color: #fff;
+    background-color: #96BB7C;
+}
+
+.description__container {
+    width: 1440px;
+    height: 346px;
+}
+
+.description__inner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1,041px;
+    height: 170px;
+    gap: 30px;
+}
+
+.description__title {
+    color: #252B42;
+}
+
+.description__link {
+    color: #737373;
+}
+
+.description__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description__call {
+    display: flex;
+}
+
+.description__place {
+    display: flex;
+}
+
+.description__mail {
+    display: flex;
+}
+
+.description__box-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description__link-place {
+    color: #737373;
+    width: 300px;
+}
+
+.application__container {
+    width: 1440px;
+    height: 74px;
+}
+
+.description__application {
+    width: 1,050px;
+    height: 74px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description__application-text {
+    width: 359px;
+    height: 24px;
+    color: #737373;
+}
+
+.description__img {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
 }
