@@ -1,0 +1,183 @@
+html {
+    font-size: 16px;
+}
+
+p {
+    color: #96BB7C;
+}
+
+.container {
+    max-width: 1200px;
+    height: 700px;
+    margin: 100px;
+    font-family: cursive;
+}
+
+.header {
+    width: 1322px;
+    height: 91px;
+    left: 59px;
+    margin: 0px 100px;
+    font-family: monospace;
+}
+
+.weskill__head {
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+
+.school__title {
+    color:#252B42;
+}
+
+.school__description {
+    color: #737373;
+}
+
+.school__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.school__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.school__right-img {
+    border-radius: 50px;
+    width: 704px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #96BB7C;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.header__link:hover {
+    color: #737373;
+}
+
+.python__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.python__title {
+    color: #252B42;
+}
+
+.python__left-img {
+    border-radius: 50px;
+    width: 704px;
+}
+
+.python__link {
+    text-decoration: none;
+    color: #96BB7C;
+}
+
+.python__link:hover {
+    color: #737373;
+}
+
+.python__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.python__top {
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+
+.english__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.english-img {
+    border-radius: 50px;
+    width: 704px;
+}
+
+.english__link {
+    background-color: #FFF2F3;
+    color: #252B42;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.english__link:hover {
+    color: #737373;
+}
+
+.english__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.english__title {
+    color: #252B42;
+}
+
+.weskill__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weskill__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.weskill__left-img {
+    width: 90px;
+    height: 90px;
+}
+
+.weskill__center-img {
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+}
+
+.weskill__center {
+    display: flex;
+    flex-direction: column;
+}
+
+.weskill__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.weskill__center-paragraph {
+    width: 150px;
+    height: 90px;
+}
+
+.weskill__link {
+    color: #000;
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: cursive;
+    margin: 0px 0px 300px 400px;
+}
+
+.weskill__link:hover {
+    color: #737373;
+}
+
