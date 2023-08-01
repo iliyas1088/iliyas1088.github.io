@@ -1,0 +1,73 @@
+html {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 100px;
+    font-family: monospace;
+}
+
+.top__five {
+    text-align: center;
+    font-family: cursive;
+    color: crimson;
+}
+
+.trevas__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trevas__title {
+    color: #252B42;
+}
+
+.trevas__link {
+    text-decoration: none;
+    color: #737373;
+    font-family: cursive;
+    background-color: aqua;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.trevas__link:hover {
+    color: #252B42;
+}
+
+.trevas__left {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.maldita__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maldita__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trevas-img,
+.maldita-img,
+.brazil-img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+.brazil__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brazil__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
