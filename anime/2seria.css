@@ -1,0 +1,29 @@
+html {
+    font-size: 16px;
+}
+
+a {
+    color: #fff;
+    background-color: #96BB7C;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #96BB7C;
+    background-color: #fff;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+.seriy {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 300px;
+}
+
