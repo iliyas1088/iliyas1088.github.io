@@ -1,1 +1,1 @@
-# iliyas1088.github.io/anime/anime.html
+# iliyas1088.github.io/journey-journals/index.html
