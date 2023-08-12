@@ -2,6 +2,8 @@
     --bg: #fff;
     --primary: #363636;
     --accent: #00A0B1;
+    --white: #fff;
+    --hint: #a1a1a1;
 }
 
 
@@ -47,6 +49,7 @@ a:hover {
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #F8F8F8;
 }
 
 .container {
@@ -57,7 +60,7 @@ body {
 }
 
 .header {
-    height: 100vh;
+    height: 55.625rem;
     width: 100vw;
     background: var(--primary) url('../images/bg.jpg')
     no-repeat top center / cover;
@@ -92,4 +95,106 @@ body {
 
 .header__nav-link:hover {
     text-decoration: underline;
+}
+
+.header__content {
+    padding-top: 4.3125rem;
+}
+
+.header__title {
+    font-size: 5.625rem;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.header__text,
+.header__title {
+    text-align: center;
+    color: var(--white);
+    width: 44.125rem;
+    margin: 0 auto;
+}
+
+.header__text {
+    margin: 1.5rem auto;
+}
+
+.header__search-container {
+    border-radius: 15px;
+    background-color: rgba(174, 174, 174, 0.30);
+    padding: 2.3875rem;
+    width: 61.6875rem;
+    margin: 0 auto;
+}
+
+.header__search {
+    background: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    border-radius: 0.9375rem;
+}
+
+.btn {
+    width: 8.9375rem;
+    height: 3.25rem;
+    border-radius: 0.9375rem;
+    margin: auto 0;
+    background-color: var(--accent);
+    border: none;
+    color: var(--white);
+}
+
+.header__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 13rem;
+}
+
+.header__item label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    margin-left: 0.4rem;
+}
+
+.header__input {
+    width: 13rem;
+    border: 0;
+    opacity: 0.6;
+}
+
+.header__line {
+    width: 1px;
+    background-color: var(--primary);
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-between; 
+    background-color: var(--white);
+    border-radius: 15px;
+    margin-top: 5.625rem;
+    padding: 2.1875rem 4.375rem;
+}
+
+.header__bottom-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header__bottom-title {
+    color: var(--accent);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+}
+
+.header__bottom-text {
+    width: 18.4375rem;
+    color: var(--hint);
+}
+
+.about {
+    height: 800px;
 }
