@@ -1,1 +1,1 @@
-# iliyas1088.github.io/journey-journals/index.html
+# iliyas1088.github.io/easy-project/index.html
