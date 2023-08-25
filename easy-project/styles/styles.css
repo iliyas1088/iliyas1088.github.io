@@ -1,5 +1,5 @@
 p {
-    color: #252B42;
+    color: #fff;
     font-size: 20px;
     font-family: cursive;
 }
@@ -26,8 +26,6 @@ p {
 
 .settings__img {
     width: 30px;
-    background-color: #96BB7C;
-    border-radius: 5px;
 }
 
 .tabs {
@@ -113,46 +111,11 @@ p {
     position: relative;
 }
   
-.searchButton {
-    color: white;
-    position: absolute;
-    right: 8px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
-    border: 0;
-    display: inline-block;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-}
-  /*hover effect*/
-button:hover {
-    color: #fff;
-    background-color: #1A1A1A;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
-    transform: translateY(-3px);
-}
-  /*button pressing effect*/
-button:active {
-    box-shadow: none;
-    transform: translateY(0);
-}
-  
-.searchInput {
-    border: none;
-    background: none;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    padding: 24px 46px 24px 26px;
-}
-  
-  
 
 .header {
     height: 100vh;
     width: 100vw;
-    background-color: #fff2f3;
+    background-color: #a1a1a1;
 }
 
 .header__inner {
@@ -176,40 +139,21 @@ button:active {
     border-radius: 20px;
 }
 
-.button {
-    padding: 0.1em 0.25em;
-    width: 13em;
-    height: 4.2em;
+.input {
+    border: 2px solid #e8e8e8;
+    padding: 15px;
+    border-radius: 10px;
     background-color: #212121;
-    border: 0.08em solid #fff;
-    border-radius: 0.3em;
-    font-size: 12px;
-  }
-  
-.button span {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    bottom: 0.4em;
-    width: 8.25em;
-    height: 2.5em;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+   
+.input:focus {
+    outline-color: white;
     background-color: #212121;
-    border-radius: 0.2em;
-    font-size: 1.5em;
-    color: #fff;
-    border: 0.08em solid #fff;
-    box-shadow: 0 0.4em 0.1em 0.019em #fff;
-}
-  
-.button span:hover {
-    transition: all 0.5s;
-    transform: translate(0, 0.4em);
-    box-shadow: 0 0 0 0 #fff;
-}
-  
-.button span:not(hover) {
-    transition: all 1s;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
 }
   
 .iphone {
@@ -293,7 +237,7 @@ button:active {
 .airpods {
     height: 120vh;
     width: 100vw;
-    background-color: #96BB7C;
+    background-color: #a1a1a1;
     padding: 50px 0 0;
 }
 
