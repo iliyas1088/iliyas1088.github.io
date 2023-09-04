@@ -1,1 +1,1 @@
-# iliyas1088.github.io/easy-project/index.html
+# iliyas1088.github.io/snickers/index.html
