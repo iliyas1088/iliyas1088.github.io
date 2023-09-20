@@ -1,0 +1,395 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --bg: #E83733;
+    --line: #737373;
+    --our-bg: #F5F5F5;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.kebele__container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header Top */
+
+.header__container {
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {    
+    margin-top: 1.25rem;
+}
+
+.header__registration {
+    margin-top: 2.375rem;
+}
+
+.header__link {
+    font-size: 1.375rem;
+    margin-left: 25px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header__link:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.header__location-link {
+    font-size: 1.375rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.header__login-link {
+    font-size: 1.375rem;
+    color: var(--black);
+    text-decoration: none;
+    margin-left: 3.8125rem;
+}
+
+.header__location-link:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.header__login-link:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.header__location {
+    margin-right: 12px;
+}
+
+.header__basket {
+    margin-left: 37px;
+}
+
+/* Header Inner */
+
+.kebele {
+    background-color: var(--bg);
+}
+
+.kebele__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kebele__left {
+    background-color: var(--black);
+    padding-right: 3.3125rem;
+    padding-top: 4.1875rem;
+    padding-bottom: 90px;
+}
+
+.kebele__right-img {
+    margin-top: 205px;
+    margin-left: 90px;
+}
+
+.kebele__title {
+    font-size: 3rem;
+    color: var(--white);
+    margin-left: 4.625rem;
+}
+
+.kebele__suptitle {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-left: 6.625rem;
+    margin-top: 10px;
+}
+
+.kebele__text {
+    width: 623px;
+    font-size: 1rem;
+    margin-left: 6rem;
+    color: var(--white);
+    margin-top: 15px;
+}
+
+.kebele__line {
+    width: 620px;
+    height: 2px;
+    background-color: var(--line);
+    margin-left: 5.8125rem;
+}
+
+.kebele__buy {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 7.625rem;
+    margin-top: 1.375rem;
+}
+
+.table {
+    display: flex;
+}
+
+.list {
+    color: var(--white);
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    padding: 5px 15px 5px 15px;
+}
+
+.kebele__price {
+    font-size: 3rem;
+    color: var(--white);
+    font-family: 'Prompt', sans-serif;
+}
+
+.kebele__order {
+    margin-left: 7.25rem;
+    margin-top: 19px;
+    display: flex;
+    gap: 20px;
+}
+
+.kebele__quantity {
+    font-size: 2rem;
+    color: var(--white);
+    border: 2px solid #fff;
+    padding: 0 10px 0 10px;
+    margin-bottom: 23px;
+}
+
+.kebele__add {
+    font-size: 1.5rem;
+    color: var(--white);
+    border: 2px solid #fff;
+    padding: 8.5px 150px 8.5px 150px;
+    text-decoration: none;
+    margin-bottom: 23px;
+}
+
+.kebele__add:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.kebele__save {
+    font-size: 1.25rem;
+    color: var(--white);
+    background-color: var(--bg);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 68px 10px 68px;
+    margin-left: 15rem;
+}
+
+.kebele__save:hover {
+    color: var(--bg);
+    background-color: var(--white);
+}
+
+
+/* Recipe */
+
+.recipe__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.recipe__beans-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.recipe__wave-title {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+
+.recipe__coffee-title {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+}
+
+.recipe__earth-title {
+    font-size: 1.5rem;
+    margin-bottom: 9.85px;
+}
+
+.recipe__mountain-title {
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+}
+
+.recipe__suptitle {
+    font-size: 1.25rem;
+}
+
+.recipe__coffee-suptitle {
+    font-size: 1.25rem;
+    width: 200px;
+}
+
+.recipe__coffee-img,
+.recipe__earth-img {
+    margin-bottom: 14px;
+}
+
+.recipe__mountain-img {
+    margin-bottom: 3px;
+}
+
+.recipe__wave-img {
+    margin-bottom: 11px;
+}
+
+.recipe__beans-img {
+    margin-bottom: 20px;
+}
+
+
+/* Pairs */
+
+.pairs__top {
+    margin-top: 12.5rem;
+}
+
+.pairs__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.pairs__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.25rem;
+}
+
+
+/* Reviews */
+
+.reviews__inner {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews__title {
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+}
+
+.reviews__suptitle {
+    font-size: 1.875rem;
+}
+
+.reviews__text {
+    width: 800px;
+    font-size: 1.5rem;
+}
+
+
+/* Our */
+
+.our {
+    background-color: var(--our-bg);
+    margin-top: 100px;
+    padding-top: 80px;
+}
+
+.our__line {
+    width: 1200px;
+    height: 2px;
+    background-color: var(--line);
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.our__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.our__box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.our__title {
+    font-size: 1.5rem;
+}
+
+.our__link {
+    font-size: 1.375rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.our__link:hover {
+    text-decoration: underline;
+    color: var(--black);
+}
+
+.our__we-applications {
+    display: flex;
+    gap: 30px;
+    margin-top: 2.125rem;
+}
+
+.our__reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.our__reg-title {
+    text-transform: uppercase;
+    font-size: 1.375rem;
+}
+
+.our__email {
+    margin-top: 1.75rem;
+    margin-bottom: 4.0625rem;
+}
+
+.our__input {
+    padding: 5px 100px 5px 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
