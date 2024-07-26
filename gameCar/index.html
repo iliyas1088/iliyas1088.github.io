@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="road"></div>
+    
+    <img src="images/car.png" alt="" class="car">
+
+    <img src="images/tree1.png" alt="" class="tree tree1">
+    <img src="images/tree3.png" alt="" class="tree tree2">
+    <img src="images/tree2.png" alt="" class="tree tree3">
+    <img src="images/tree3.png" alt="" class="tree tree4">
+    <img src="images/tree2.png" alt="" class="tree tree5">
+    <img src="images/tree1.png" alt="" class="tree tree6">
+
+    <img src="images/arrow.png" alt="" class="arrow">
+    <img src="images/danger.png" alt="" class="danger"> 
+    <img src="images/coin.png" alt="" class="coin">
+
+    <button type="button" class="game-button">
+        <img src="images/pause.png" alt="" class="pause">
+        <img src="images/play.png" alt="" class="play">
+    </button>
+
+    <div class="game-score">
+        0
+    </div>
+
+    <div class="backdrop">
+        <div class="backdrop-container">
+            <p class="finish-text">Итоговый счёт: <span class="finish-text-score">0</span></p>
+            <button type="button" class="restart-button">Начать заново</button>
+        </div>
+    </div>
+
+    <script src="./js/constants.js"></script>
+    <script src="./js/utils/createElement-info.js"></script>
+    <script src="./js/utils/getCoords.js"></script>
+    <script src="./js/utils/hasColission.js"></script>
+    <script src="./js/utils/movement.js"></script>
+    <script src="./js/utils/treesAnimation.js"></script>
+    <script src="./js/utils/elementAnimation.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        const restartButton = document.querySelector('.restart-button');
+
+        restartButton.addEventListener('click', () => {
+            window.location.reload();
+        })
+    </script>
+</body>
+</html>
